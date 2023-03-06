@@ -9,7 +9,7 @@ public class Program
         int valor = int.Parse(Console.ReadLine());
 
         if (!myList.Contains(valor))
-        Console.WriteLine($"\n esse valor não existe na lista");
+        Console.WriteLine($"{valor} não existe na lista");
         
         else
         Console.WriteLine(PesquisaBinaria(myList, valor) + $" é a posição do seu número {valor}");
